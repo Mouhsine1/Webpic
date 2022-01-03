@@ -1,0 +1,18 @@
+
+				- Admin Unix - 
+
+1.find /rep -type f -name "*.py" -exec grep 'index_project'
+2.find . -name "*.pyc" -exec rm -rf {}\
+3.head -n120 file > tmpfile | tail –n+100 tmpfile
+4.On peut utiliser la Méthode suivante : créer un group (de partage) dans ce groupe on ajoute user 1&2 et on donne au membres de ce groupe les permission Read, Write, Exec
+	 Ex :  groupadd NFSGrp
+	 chgrp NFSGrp /data/mixte
+	 chmod g+wrx /data/mixte
+
+5.  - - - - - - -- - - - -- - - - - - - -
+    <VirtualHost *:80>			-
+	ServerName test.example.com 	-
+	Redirect / http://dev.example.com
+    </VirtualHost>			-
+
+- - - - - - -- - - - -- - - - - - - - - - 

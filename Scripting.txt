@@ -1,0 +1,11 @@
+				- Scirpting Shell -  
+
+1.	Une redirection permet de rediriger la sortie d'une commande vers l'entrée d'une autre
+•	Pour afficher toujour Yo, il faut que la condition If soit toujours Correct
+•	Pour afficher toujours Bye la condition If doit etre toujours Fausse.
+
+            - - - - - - - - - - - - - - - - - - - -- - - - -- - - - -- - - - - - - - -
+
+2.	Le crontab  un programme est pour la planification des taches répétitifs (Scheduling des taches) : 
+	Ajouter l’entrée suivante au fichier crontab : 
+	*/10 8-20 * * * zope  find /tmp -user student -exec rm -fr {} \;

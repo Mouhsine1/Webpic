@@ -1,0 +1,31 @@
+				- Git Test - 
+
+1.	Ci-dessous les étapes par lesquelles on doit passer :
+
+
+- cloner : git clone git://git.example.com/foo 
+
+- modifier le fichier  foo.py
+
+- git status : avoir une idée sur l'état des fichiers dans le rép git.
+
+- git commit -m " le fichier est a jour " : validation de la version
+
+- git push -u origin master
+
+
+
+2.	Création d’une branche : 
+
+
+-git checkout -b foo_V1
+
+-git branch foo_V1
+
+
+3.	 Merger une branche
+
+-git checkout master 
+
+-get merge foo_V1
+

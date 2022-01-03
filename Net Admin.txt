@@ -1,0 +1,19 @@
+					- Net Admin - 
+
+1.Address Réseau : 10.42.64.0 (Class A)
+  Addr Broadcast : 10.42.95.255
+  1er Addr :  10.42.64.1
+  Dérnier Addr : 10.42.95.254
+  Nbr de machine Possible : 8190
+ 		 - - - - - - - - - - -- - - - - -- - - -- - - - - -- - - - - - -- - -
+
+2.	Pour avoir au minimum 100 sous-réseau qui peuvent contenir au moins 220 machines on fait le découpage suivant :
+
+
+
+
+
+
+
+
+ 
